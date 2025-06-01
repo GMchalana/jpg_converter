@@ -333,7 +333,7 @@ export default function PDFTools() {
 
       {/* Footer */}
       <footer className="bg-black bg-opacity-30 border-t border-gray-700 text-center py-4 text-sm text-gray-400 backdrop-blur shadow-inner">
-        &copy; {new Date().getFullYear()} Dennam.lk. Crafted with ♥ in dark mode.
+        &copy; {new Date().getFullYear()} Dennam.lk. Developed by Chalana Prabhashwara.
       </footer>
     </div>
   );
