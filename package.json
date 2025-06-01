@@ -2,7 +2,10 @@
   "name": "jpg_converter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gmchalana.github.io/jpg_converter",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -29,6 +32,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
