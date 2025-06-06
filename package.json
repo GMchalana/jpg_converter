@@ -12,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/icons-material": "^7.1.1",
     "framer-motion": "^12.15.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
@@ -20,6 +21,8 @@
     "pdfjs-dist": "^5.2.133",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-easy-crop": "^5.4.2",
+    "react-image-crop": "^11.0.10",
     "react-spinners": "^0.17.0",
     "sweetalert2": "^11.22.0"
   },
@@ -29,6 +32,7 @@
     "@types/pdfjs-dist": "^2.10.377",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-image-crop": "^8.1.6",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
